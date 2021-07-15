@@ -41,8 +41,11 @@ composer create-project --prefer-dist laravel/laravel taskchecker "7.*"
   DB_SOCKET=/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock  (Windowsは不要)
   DB_DATABASE=TaskChecker
 
+
 ③ DB作成(phpmyadminにて.envファイルに記載のDB名でデータベース作成)
+
 ④ migrationファイル作成とmigrateの実行
+
 ⑤ php artisan key:generate実行
 
 
@@ -61,8 +64,11 @@ https://laraweb.net/environment/3523/
 
 
 ① composer require laravel/ui "^2.0"
+
 ② php artisan ui vue --auth
+
 ③ npm install
+
 ④ npm run dev
 
 
