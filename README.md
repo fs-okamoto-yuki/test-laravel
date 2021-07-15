@@ -21,6 +21,7 @@ TaskChecker 環境構築手順書
  
 ■composerのインストール
 
+
 ① Composer公式ページよりインストーラーをダウンロード
  https://getcomposer.org/doc/00-intro.md
   ※要再起動
@@ -31,8 +32,12 @@ TaskChecker 環境構築手順書
 
 
 ■Laravelインストール
+
+
 ① XAMMPのhtdocsフォルダに移動し、下記コマンドを実行
+
 composer create-project --prefer-dist laravel/laravel (アプリ名) "バージョン"
+
 
 composer create-project --prefer-dist laravel/laravel taskchecker "7.*"
 
@@ -50,12 +55,16 @@ composer create-project --prefer-dist laravel/laravel taskchecker "7.*"
 
 
 
+
+
 ■npmのインストール
 
 
 下記URLからnpmをインストール
 https://laraweb.net/environment/3523/
 ※LTS(推奨版)をインストール 要再起動
+
+
 
 
 
@@ -70,6 +79,8 @@ https://laraweb.net/environment/3523/
 ③ npm install
 
 ④ npm run dev
+
+
 
 
 
